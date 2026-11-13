@@ -27,7 +27,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Base URL for API requests (uses relative URLs with Vite proxy)
-const API_BASE_URL = 'https://salespulse-interactive-data-analytics.onrender.com';
+const API_BASE_URL = 'http://localhost:8000';
 console.log("DEBUG: Auth URL is:", API_BASE_URL);
 
 // AuthProvider component that wraps the application and provides authentication context
